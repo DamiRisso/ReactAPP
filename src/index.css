@@ -22,3 +22,17 @@ code {
 	color: #d18100;
 	margin: 0.5rem;
 }
+
+.btn {
+  margin: 1rem;
+  width: 2rem;
+  text-align: center;
+}
+
+.ItemCount {
+  padding: 1.2rem;
+  width: fit-content;
+  text-align: center;
+  background-color: rgb(219, 219, 219);
+  border-radius: 15px;
+}
