@@ -36,3 +36,7 @@ code {
   background-color: rgb(219, 219, 219);
   border-radius: 15px;
 }
+
+.Item {
+  font-size: 32px;
+}
