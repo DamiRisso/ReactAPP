@@ -23,7 +23,7 @@ code {
 	margin: 0.5rem;
 }
 
-.btn {
+.ItemCount .btn {
   margin: 1rem;
   width: 2rem;
   text-align: center;
@@ -39,4 +39,19 @@ code {
 
 .Item {
   font-size: 32px;
+}
+
+.card {
+	margin: 15px;
+	background-color:#699c78;
+	display: inline-block;
+	box-shadow: 7px 7px 15px #888888;
+}
+
+.card-title, .card-text {
+	color: white;
+}
+
+.list-group-item {
+	background-color: #699c78;
 }

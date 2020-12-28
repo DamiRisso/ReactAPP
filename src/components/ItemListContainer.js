@@ -9,14 +9,13 @@ import ItemList from './ItemList';
 		  ];*/
 const ItemListContainer = ({saludo}) => {
 
-		
-		  //const[items, setItems] = React.useState(productos)
 
 	return (
-	<div>
+	<>
 	<h2 className='saludo'>{saludo}</h2>
 	<ItemList />
-	</div>)
+	</>
+	)
 }
 
 export default ItemListContainer;
