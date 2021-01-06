@@ -6,14 +6,14 @@ const Item = ({nombre, descripcion, peso, precio, productor, stock, codigo, cate
     const widthCard = {width: '18rem'}
     return(
        
-      <div class="card" style={widthCard}>
-  <div class="card-header">
+      <div className="card" style={widthCard}>
+  <div className="card-header">
     {categoria}
   </div>
-  <div class="card-body">
-    <h5 class="card-title">{nombre}</h5>
-    <p class="card-text">{peso}Kg</p>
-    <button class="btn btn-primary">Ver detalles</button>
+  <div className="card-body">
+    <h5 className="card-title">{nombre}</h5>
+    <p className="card-text">{peso}Kg</p>
+    <button className="btn btn-primary">Ver detalles</button>
   </div>
 </div>
       /*<>        
